@@ -1,0 +1,30 @@
+# ============================================================
+# Vision-Driven Pixel-to-Action GUI Automation Agent
+# Dependencies — Section 8 of MASTER_PROJECT_DIRECTIVE_FINAL
+# ============================================================
+
+# --- Browser Automation (Local Body) ---
+playwright>=1.44.0
+
+# --- Gemini Cloud AI (Cloud Brain) ---
+google-genai>=1.0.0
+
+# --- Computer Vision / OmniParser Support ---
+opencv-python>=4.9.0
+torch>=2.2.0
+ultralytics>=8.2.0          # YOLOv8-based object detection backbone
+supervision>=0.20.0         # Bounding box utilities for OmniParser
+
+# --- Image Processing & Hashing ---
+Pillow>=10.3.0
+imagehash>=4.3.1            # pHash for perceptual state comparison (memory.py)
+numpy>=1.26.0
+
+# --- Configuration & Environment ---
+python-dotenv>=1.0.1        # Load .env variables into settings.py
+
+# --- HTTP (for future direct API calls if needed) ---
+requests>=2.31.0
+
+# --- Terminal Logging (Rich UI) ---
+rich>=13.7.0                # [PERCEIVE] / [GROUND] / [PLAN] / [ACT] logging tags
