@@ -25,3 +25,6 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Documentation
+MASTER_PROJECT_DIRECTIVE_FINAL.md
